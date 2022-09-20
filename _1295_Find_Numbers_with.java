@@ -14,6 +14,7 @@ public class _1295_Find_Numbers_with { // kiếmr tra số chữ số là chẵn
         for (int i = 0; i < nums.length; i++) { // duyệt mảng từ vị trí 0 -> vị trí cuối trong mảng nums
             if (ktraso(nums[i]) % 2 == 0) {  // kiểm tra xem nums[i] có phải even number k?
                 cout++; // Phải thì biến count + 1
+                System.out.println("num:" + nums[i]);
             }
         }
         return cout;
